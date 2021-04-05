@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Nav from './components/Nav';
 import { BrowserRouter as Router } from "react-router-dom";
+import Attribution from "./components/Attribution";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Nav />
         <Hero />
         <About />
+        <Attribution />
       </ContainerApp>
     </Router>
   );
