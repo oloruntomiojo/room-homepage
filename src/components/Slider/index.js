@@ -52,7 +52,7 @@ const Slider = ({ data }) => {
                         <SlideImage>
                             <source media="(min-width: 500px)" srcSet={item.imageDesktop}/>
                             <source media="(max-width: 500px)" srcSet={item.imageMobile}/>
-                            <img src={item.imageMobile} height="360px" alt={item.alt} loading="lazy" />
+                            <img src={item.imageMobile} height="360" alt={item.alt} />
                         </SlideImage>
 
                         <SlideContent>
