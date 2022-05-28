@@ -22,7 +22,7 @@ export default App;
 
 
 const ContainerApp = styled.div`
-  max-width: 1440px;
+  max-width: 2000px;
   margin: 0 auto;
   position: relative;
 `;
